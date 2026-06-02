@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+
+    .nav-lang,
+    .nav-orders {
+        display: none;
+    }
+
+
+    .product-sliders-container {
+        margin-top: -80px;
+    }
+
+}

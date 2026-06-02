@@ -1,0 +1,127 @@
+@media (max-width: 700px) {
+
+    /* Mobile screen par elements ko wrap krna aur search ko adjust krna */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-search {
+        order: 5;
+        /* Search bar ko neeche lane k liye */
+        margin: 5px 0 0 0;
+        width: 100%;
+    }
+
+    .nav-address {
+        display: none;
+        /* Mobile par address aksar chupa hota hai */
+    }
+
+    .panel-ops {
+        overflow-x: auto;
+        /* Menu items swipe ho sakein agar screen choti ho */
+        white-space: nowrap;
+    }
+
+    .panel-ops::-webkit-scrollbar {
+        display: none;
+        /* Scrollbar hide krne k liye */
+    }
+
+
+
+
+
+
+
+
+    /* ==========HERO SECTION========== */
+
+
+
+    .banner-container {
+        height: 250px;
+        background-position: right center;
+        /* Mobile par image right area focus karegi */
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+        top: 10px;
+        padding: 0 10px;
+    }
+
+    .banner-content {
+        padding: 30px 0 0 20px;
+    }
+
+    .banner-text h1 {
+        font-size: 26px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+  
+    .product-sliders-container {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .slider-btn {
+        display: none; /* Mobile phone standard swipe natively active */
+    }
+    .products-carousel {
+        gap: 15px;
+    }
+    .product-item {
+        height: 150px; /* Shorter screen space handling */
+    }
+
+
+
+
+
+    .pre-footer-recommend {
+        padding: 20px 15px;
+        margin-top: 15px;
+    }
+    .rec-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .rec-sub {
+        font-size: 11px;
+    }
+
+    .sub-footer-grid {
+        grid-template-columns: repeat(2, 1fr); 
+        padding: 30px 15px;
+    }
+    .policy-links {
+        gap: 10px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
